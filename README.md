@@ -43,7 +43,7 @@ AWS_SECRET_ACCESS_KEY
 
 Push your changes to the main branch. The workflow will automatically deploy your stack.
 
-## Testing
+ Testing
 To test the API, send a GET request to the API URL:
 curl https://jner4mrs02.execute-api.us-east-1.amazonaws.com/prod/
 You can also use tools like Postman or simply open the URL in a web browser.
@@ -51,7 +51,7 @@ Cleaning Up
 To avoid incurring future charges, destroy the resources when you're done:
 cdk destroy
 
-## Customization
+ Customization
 
 Modify lambda/lambda_function.py to change the resume data or add more functionality.
 Update lib/resume-api-cdk-stack.ts to add more AWS resources or modify the existing ones.
