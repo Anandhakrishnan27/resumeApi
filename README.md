@@ -7,27 +7,6 @@ This project deploys a serverless Resume API using AWS CDK. It creates an AWS La
 The Resume API is accessible at:
 https://jner4mrs02.execute-api.us-east-1.amazonaws.com/prod/
 
-## Project Structure
-resume-api-cdk/
-│
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-│
-├── bin/
-│   └── resume-api-cdk.ts
-│
-├── lib/
-│   └── resume-api-cdk-stack.ts
-│
-├── lambda/
-│   └── lambda_function.py
-│
-├── cdk.json
-├── package.json
-├── tsconfig.json
-└── README.md
-Copy
 ## Prerequisites
 
 - Node.js (v18.x or later)
