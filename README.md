@@ -16,14 +16,23 @@ https://jner4mrs02.execute-api.us-east-1.amazonaws.com/prod/
 ## Setup
 
 1. Clone the repository:
-git clone https://github.com/your-username/resume-api-cdk.git
-cd resume-api-cdk
+   ```bash
+   git clone https://github.com/your-username/resume-api-cdk.git```
+   cd resume-api-cdk
 
-2. Install dependencies:
-npm install
+Install dependencies:
+bashCopynpm install
 
-3. Ensure your AWS CLI is configured with the correct credentials and region:
-aws configure
+Configure AWS CLI:
+
+Ensure your AWS CLI is set up with the correct credentials and region:
+```aws configure
+
+You'll be prompted to enter:
+
+AWS Access Key ID
+AWS Secret Access Key
+Default region name (e.g., us-east-1)
 
 
 ### Automated Deployment with GitHub Actions
